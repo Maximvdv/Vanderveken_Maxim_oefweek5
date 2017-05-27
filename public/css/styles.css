@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:300,400,700,700i');
+
+body {
+  font-family: helvetica;
+  line-height: 1.4em;
+  background-color: black;
+}
+
+.mobilecontainer{
+  width: 375px;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+
+}
+
+section {
+  margin-top: 25px;
+}
+
+img {
+  max-width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.biggerimg{
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+p {
+  margin: 10px 0;
+}
+
+h2 {
+  width: 90%;
+  margin: 5px auto;
+  text-align: center;
+  color: #39A9F3;
+  font-family: "Open Sans";
+  font-weight: 700;
+
+}
+
+h3 {
+  display: inline;
+}
+
+/*h4 = tussentitels*/
+h4{
+  font-weight: 700;
+}
+nav {
+  background-color: #39A9F3;
+}
+
+a {
+  text-decoration: none;
+  color: #39A9F3;
+}
+
+
+
+.logomain{
+  max-width: 300px;
+}
+
+
+.categories{
+  color: white;
+  background-color: #39A9F3;
+  margin:auto;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.categories a{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 11px;
+  font-family: "Open Sans";
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.date{
+  text-align: center;
+  font-size: 10px;
+  color: slategrey;
+}
+
+.summary{
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.artikels{
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  top: 0;
+  background-color: #ededed;
+  border-radius: 5px;
+  min-height: 410px;
+  padding-bottom: 10px;
+  margin-left: 3px;
+}
+
+.artikels:before{
+  display: block;
+  content: "";
+  width: 100%;
+  height: 10px;
+  background-color: #c6c6c6;
+}
+
+.content{
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+.postedin{
+  padding-top: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: gray;
+}
+
+.catref{
+  font-weight: 700;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 600px; /* Place the button 30px from the right */
+  z-index: 999; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #39A9F3;
+  opacity: .5;/* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding-left: 6px;
+  padding-right: 5px;
+  padding-bottom: 0;
+  /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 20px;
+}
+
+.herokulink{
+  font-size: 12px;
+  text-align: center;
+  color: orange;
+  padding-top: 10px;
+  margin-left: 35%;
+}

@@ -1,0 +1,21 @@
+<% include header %>
+<div class="mobilecontainer">
+    <% include navigatie %>
+
+  <% for (var i = 0; i < items.length; i++) { %>
+    <% if (items[i].categorieen.indexOf(categorieen[id]) !== -1) { %>
+      <section>
+          <h2>
+            <a href=/items/<%- items[i].id %>><%- items[i].titel %></a>
+          </h2>
+          <img class="biggerimg" src="/img/<%- items[i].afbeeldings %>" alt="<%- items[i].titel %>">
+          <p class="date"><%- items[i].datum %></p>
+
+          <p class="summary">
+            <%- items[i].samenvatting %>
+          </p>
+      </section>
+    <% } %>
+  <% } %>
+</div>
+<% include footer %>

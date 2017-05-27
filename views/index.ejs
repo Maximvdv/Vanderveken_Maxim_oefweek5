@@ -1,0 +1,22 @@
+    <% include header %>
+<div class="mobilecontainer">
+    <% include navigatie %>
+  <% var teller = 1; %>
+  <% nieuws.forEach(function(item){ %>
+    <section class="artikels">
+        <h2>
+          <a href=/items/<%- item.id %>><%- item.titel %></a>
+        </h2>
+        <img src="/img/<%- item.afbeeldings %>" alt="<%- item.titel %>">
+        <p class="date"><%- item.datum %></p>
+
+        <p class="summary">
+          <%- item.samenvatting %>
+        </p>
+    </section>
+    <% teller++;}); %>
+
+    <a class="herokulink" href="#">www.herokulink.com </a>
+
+</div>
+<% include footer %>
