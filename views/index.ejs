@@ -5,7 +5,7 @@
   <% nieuws.forEach(function(item){ %>
     <section class="artikels">
         <h2>
-          <a href=/items/<%- item.id %>><%- item.titel %></a>
+          <a class="titels" href=/items/<%- item.id %>><%- item.titel %></a>
         </h2>
         <img src="/img/<%- item.afbeeldings %>" alt="<%- item.titel %>">
         <p class="date"><%- item.datum %></p>

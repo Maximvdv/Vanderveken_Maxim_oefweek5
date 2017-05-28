@@ -59,7 +59,6 @@ nav {
 
 a {
   text-decoration: none;
-  color: #39A9F3;
 }
 
 
@@ -79,12 +78,17 @@ a {
 }
 
 .categories a{
+  color: white;
   padding-left: 5px;
   padding-right: 5px;
   font-size: 11px;
   font-family: "Open Sans";
   font-weight: 100;
   text-transform: uppercase;
+}
+
+.titels{
+  color: #39A9F3;
 }
 
 .date{
