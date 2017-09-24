@@ -1,22 +1,21 @@
-    <% include header %>
-<div class="mobilecontainer">
-    <% include navigatie %>
-  <% var teller = 1; %>
-  <% nieuws.forEach(function(item){ %>
-    <section class="artikels">
-        <h2>
-          <a class="titels" href=/items/<%- item.id %>><%- item.titel %></a>
-        </h2>
-        <img src="/img/<%- item.afbeeldings %>" alt="<%- item.titel %>">
-        <p class="date"><%- item.datum %></p>
+<% include header %>
+<% include navigatie %>
+<div class="wrapper">
+    <div class="blogpost">
+        <% var teller = 1; %>
+        <% post.forEach(function(item){ %>
+        <section class="artikels">
+            <h2 class="imgtext">
+                <a class="titels" href=/items/<%- item.id %>><%- item.titel %></a>
+            </h2>
+            <a href=/items/<%- item.id %>><img class="mainimg"src="/img/<%- item.afbeelding %>" alt="<%- item.titel %>"></a>
+            <p class="summary"><span>
+                <%- item.samenvatting %>
+            </span></p>
+        </section>
+        <% teller++;}); %>
 
-        <p class="summary">
-          <%- item.samenvatting %>
-        </p>
-    </section>
-    <% teller++;}); %>
-
-    <a class="herokulink" href="https://stark-wave-51747.herokuapp.com/">Heroku Link</a>
-
+    </div>
 </div>
+
 <% include footer %>

@@ -1,0 +1,20 @@
+<% include header %>
+    <% include navigatie %>
+<div class="wrapper">
+<div class="blogpost">
+  <% for (var i = 0; i < items.length; i++) { %>
+    <% if (items[i].topics.indexOf(topics[id]) !== -1) { %>
+      <section class="artikels">
+          <h2>
+            <a class="titels" href=/items/<%- items[i].id %>><%- items[i].titel %></a>
+          </h2>
+          <a href=/items/<%- items[i].id %>><img class="biggerimg" src="/img/<%- items[i].afbeelding %>" alt="<%- items[i].titel %>"></a>
+          <p class="summary">
+            <%- items[i].samenvatting %>
+          </p>
+      </section>
+    <% } %>
+  <% } %>
+</div>
+</div>
+<% include footer %>

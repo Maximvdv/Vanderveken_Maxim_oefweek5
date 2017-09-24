@@ -1,0 +1,91 @@
+{
+    "post":
+    [
+        {
+
+            "titel": "Mongo 1",
+            "id": 1,
+            "datum": "19/05/2017 • 12:02",
+            "topics": ["Mongo DB"],
+            "samenvatting": "Dit is de eerste post over Mongo DB!",
+            "body": "<p> MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time </p>",
+            "afbeelding": "mongo1.jpeg",
+            "tags": ["T-rex", "Stan"],
+            "originallink": "https://www.naturalsciences.be/nl/museum/exhibitions-view/239/394/390"
+
+        },
+        {
+            "titel": "Express 1",
+            "id": 2,
+            "datum": "19/05/2017 • 09:08",
+            "topics": ["Express"],
+            "samenvatting": "Dit is de eerste post over Express",
+            "body": "<p> Op het einde van de 19de eeuw werden er 322 m diep in de steenkoolmijn van Bernissart een dertigtal vrij volledige iguanodonskeletten ontdekt. Doordat de beenderen nog op hun plaats zaten, was een 'waarschijnlijk natuurgetrouwe' opstelling mogelijk, die al vlug bezoekers uit de hele wereld aantrok! </p> <p> Een 300 m² grote en drie verdiepingen hoge glazen kooi beschermt dit nationale erfgoed. Zo kunnen bezoekers elk van deze parels optimaal bewonderen. Bovendien zien ze in de kelderverdieping in welke houding de skeletten in de mijn lagen en hoe ze ontdekt werden. </p> <p> Liepen ze op twee of op vier poten? Behoorden ze allemaal tot dezelfde soort? Hoe zijn ze gestorven? Waar leefden ze? Zijn er nog steeds in Bernissart? Na een bezoek ken je de antwoorden op die vragen en ben je een echte iguanodonkenner! </p> ",
+            "afbeelding": "express1.png",
+            "originallink": "https://www.naturalsciences.be/nl/museum/exhibitions-view/239/394/390"
+        },
+        {
+            "titel": "React 1",
+            "id": 3,
+            "datum": "19/05/2017 • 13:05",
+            "topics": ["React"],
+            "samenvatting": "Dit is de eerste post over React!",
+            "body": "<p> De affiche is een ‘onmogelijk familieportret’: wij – Homo sapiens, de moderne mens – vergezeld van zes van de 24 gekende voorlopers, die alle uitgestorven zijn gedurende miljoenen jaren. </p> <p> Homo erectus (de Peking-mens) en Homo neanderthalensis hebben een bleke huid: ze behoren tot de weinige soorten die uitsluitend in Eurazië hebben geleefd. De anderen hebben een donkere huid: ze leefden in een tropisch klimaat (Homo sapiens is ontstaan in Afrika 200.000 jaar geleden). Australopithecus afarensis (de wereldberoemde ‘Lucy’) en Australopithecus sediba vertonen nog sterk aapachtige kenmerken en zijn zwartbehaard: het zijn de oudste soorten op de affiche. </p> <h4> Clichés doorbreken </h4> <p> In dit beeld staan de zeven mensachtigen niet op een rij, zoals het clichébeeld wil, maar door elkaar: de menselijke evolutie was niet lineair maar grillig, met veel vertakkingen en ook kruisingen, zoals tussen neanderthaler en de moderne mens. </p> <p> Homo sapiens staat ook niet centraal als was hij het eindproduct van de menselijke evolutie. Die is nog steeds aan de gang! En nog een laatste cliché doorbroken: we tonen ook vrouwen om de evolutie van de mens te illustreren. </p>",
+            "afbeelding": "react1.png",
+            "originallink": "https://www.naturalsciences.be/nl/museum/exhibitions-view/771/2762/697"
+        },
+        {
+            "titel": "Node 1",
+            "id": 4,
+            "datum": "21/05/2017 • 16:23",
+            "topics": ["Node"],
+            "samenvatting": "Dit is de eerste post over Node",
+            "body": "<p> In deze zone illustreren niet minder dan 25 soorten mensachtigen onze sterk uitdijende evolutie: een ware explosie van diversiteit, van Toumaï, de Sahelanthropus tchadensis, tot onze soort, Homo Sapiens – de enige nog levende tak! – met tussenstops bij Lucy de Australopithecus afarensis, Homo habilis, de eerste ambachtsman, Homo erectus de ontdekkingsreiziger, of ook nog de man van Spy, een Belgische Homo neanderthalensis. </p> <p> Merk op: de 3D-reconstructies op ware grootte laten je toe jezelf te vergelijken met 15 van deze mensachtigen.Hoe langer de bestaansperiode van de soort, hoe langer ook het corresponderende meubel. Het merendeel van de beenderen die we in deze zone tonen, zijn afgietsels van fossielen die nu nog bestudeerd worden. </p> ",
+            "afbeelding": "node1.png",
+            "originallink": "https://www.naturalsciences.be/nl/museum/exhibitions-view/771/2762/697"
+        },
+        {
+            "titel": "Mongo 2",
+            "id": 5,
+            "datum": "20/05/2017 • 16:30",
+            "topics": ["Mongo DB"],
+            "samenvatting": "Dit is een tweede post over Mongo DB",
+            "body": "<p> Op een heel interactieve manier kan je halverwege de tentoonstelling de mechanismen van de micro-evolutie en de genetica ontrafelen, die achter al deze veranderingen schuilgaan. </p> <p> In deze ‘satellietzone’ spitsen we ons toe op de verschillende werkwijzen van evolutie. Mechanismen, die constant en onafhankelijk van periodes, de evolutieve processen regelen. Begrippen zoals de DNA-structuur van het leven, mutatie, variatie, genetische drift, soortvorming … zullen geen geheimen meer voor je hebben. </p>",
+            "afbeelding": "mongo2.jpg",
+            "originallink": "https://www.naturalsciences.be/nl/museum/exhibitions-view/251/428/391"
+        },
+        {
+            "titel": "Express 2",
+            "id": 6,
+            "datum": "18/05/2017 • 17:05",
+            "topics": ["Express"],
+            "samenvatting": "Dit is een tweede post over Express!",
+            "body": "<p> De evolutie is niet enkel het verleden: ook nu blijven soorten veranderen … Anders dan vroeger is wel de impact die de mens heeft op het leven op aarde. Kunstmatige selectie, overbevissing, selectieve jacht, vernieling van ecosystemen: het zijn allemaal menselijke factoren die ervoor zorgen dat soorten veranderen of verdwijnen. Toch ontstaan er ook nog nieuwe soorten zonder tussenkomst van de mens. </p> <p> Ontdek in de Galerij van de Evolutie de metromug, de woestijnvis en vele andere nieuwe soorten die, al dan niet onder invloed van de mens, recent zijn ontstaan. </p>",
+            "afbeelding": "express2.png",
+            "originallink": "https://www.naturalsciences.be/nl/museum/exhibitions-view/251/428/391"
+        },
+        {
+            "titel": "React 2",
+            "id": 7,
+            "datum": "20/05/2017 • 10:41",
+            "topics": ["React"],
+            "samenvatting": "Dit is een tweede post over React!",
+            "body": "<p> In december 1972 voerde Apollo 17 de allerlaatste maanlanding uit. Geoloog (en copiloot van de maanlander) Harrison H. Schmitt en astronaut Eugene Cernan verzamelden toen iets meer dan 100 kg maangesteente, wat meer is dan bij de andere Apollovluchten. </p> <p> Schmitt is de eerste burger die met zo'n vlucht meeging. Hij en Cernan waren de laatste mensen die op de maan wandelden. </p> <p> In deze zaal zie je een maansteentje dat ze toen meegebracht hebben. Het werd door de Amerikaanse president Richard Nixon aan België geschonken en in 1974 door koning Boudewijn aan het Museum toevertrouwd. </p> ",
+            "afbeelding": "react1.png",
+            "originallink": "https://www.naturalsciences.be/nl/museum/exhibitions-view/240/398/395"
+        }
+    ,
+        {
+            "titel": "Node 2",
+            "id": 8,
+            "datum": "22/05/2017 • 10:00",
+            "topics": ["Node"],
+            "samenvatting": "Dit is een tweede post over Node!",
+            "body": "<p> Meteorieten zijn meestal klein: het zijn stukken van kometen of van planetoïden. Ze zijn vooral afkomstig uit de planetoïdengordel, die zich tussen Mars en Jupiter bevindt, en geven dus belangrijke informatie over de vorming van ons zonnestelsel. </p> <p> Elk jaar valt ongeveer honderd ton meteorieten op de aarde! Bijna 90 % hiervan zijn steenmeteorieten, waaronder de chondrieten en de achondrieten, die minder dan een derde metaal bevatten. De metaalmeteorieten nemen slechts 5 % van de inslagen voor hun rekening. Ze bestaan hoofdzakelijk uit ijzer en nikkel. De zeldzaamste (minder dan 1 %) zijn pallasieten of steen-ijzermeteorieten. </p> <p> Het verschil tussen asteroïden, vliegende sterren en superboliden kan je achterhalen in de ruimte waar je ook de vier in België gevallen meteorieten kunt bekijken. </p>",
+            "afbeelding": "node2.png",
+            "originallink": "https://www.naturalsciences.be/nl/museum/exhibitions-view/240/398/395"
+        }
+
+
+    ]
+}

@@ -1,8 +1,14 @@
+<div class="main">
+<div class="wrapper">
+    <div class="one">
+    <a href="/"> <h1> Project M.E.R.N. </h1></a></div>
+    <div class="two">
+        <div class="navigatie">
+            <% for (var i = 0; i < topics.length; i++) { %>
+            <a href="/topics/<%- i %>"><%- topics[i] %></a>
+            <% } %>
+        </div>
+</div>
+</div>
 
-    <a href="/">  <img class = "logomain" src="/img/GuardianLogo.jpg"></a>
-
-    <nav class="categories">
-        <% for (var i = 0; i < categorieen.length; i++) { %>
-        <a href="/categorieen/<%- i %>"><%- categorieen[i] %></a>
-        <% } %>
-    </nav>
+</div>
